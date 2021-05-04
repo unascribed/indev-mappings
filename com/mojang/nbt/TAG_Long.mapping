@@ -1,0 +1,4 @@
+CLASS com/a/a/a com/mojang/nbt/TAG_Long
+	FIELD a value J
+	METHOD <init> (J)V
+		ARG 1 value

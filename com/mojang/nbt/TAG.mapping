@@ -1,0 +1,17 @@
+CLASS com/a/a/j com/mojang/nbt/TAG
+	FIELD a name Ljava/lang/String;
+	METHOD a getTypeId ()B
+	METHOD a createById (B)Lcom/a/a/j;
+		ARG 0 id
+	METHOD a write (Lcom/a/a/j;Ljava/io/DataOutput;)V
+		ARG 0 ele
+		ARG 1 out
+	METHOD a readValue (Ljava/io/DataInput;)V
+		ARG 1 in
+	METHOD a writeValue (Ljava/io/DataOutput;)V
+		ARG 1 out
+	METHOD b read (Ljava/io/DataInput;)Lcom/a/a/j;
+		ARG 0 in
+	METHOD c getName ()Ljava/lang/String;
+	METHOD l setName (Ljava/lang/String;)Lcom/a/a/j;
+		ARG 1 name

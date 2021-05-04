@@ -1,0 +1,4 @@
+CLASS com/a/a/b com/mojang/nbt/TAG_Float
+	FIELD a value F
+	METHOD <init> (F)V
+		ARG 1 value

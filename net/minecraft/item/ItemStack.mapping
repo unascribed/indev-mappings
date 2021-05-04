@@ -1,0 +1,5 @@
+CLASS net/minecraft/a/b/k net/minecraft/item/ItemStack
+	FIELD a count I
+	METHOD a split (I)Lnet/minecraft/a/b/k;
+		ARG 1 amount
+	METHOD a write (Lcom/a/a/c;)Lcom/a/a/c;

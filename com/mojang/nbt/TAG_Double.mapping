@@ -1,0 +1,2 @@
+CLASS com/a/a/g com/mojang/nbt/TAG_Double
+	FIELD a value D

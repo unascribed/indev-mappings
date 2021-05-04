@@ -1,0 +1,14 @@
+CLASS a/a net/minecraft/math/MathHelper
+	FIELD a SIN_LOOKUP [F
+	METHOD a floor (D)I
+		ARG 0 d
+	METHOD a sin (F)F
+		ARG 0 v
+	METHOD b cos (F)F
+		ARG 0 v
+	METHOD c sqrt (F)F
+		ARG 0 v
+	METHOD d floor (F)I
+		ARG 0 f
+	METHOD e abs (F)F
+		ARG 0 f

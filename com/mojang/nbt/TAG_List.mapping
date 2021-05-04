@@ -1,0 +1,8 @@
+CLASS com/a/a/f com/mojang/nbt/TAG_List
+	FIELD a delegate Ljava/util/List;
+	FIELD b type B
+	METHOD a get (I)Lcom/a/a/j;
+		ARG 1 idx
+	METHOD a add (Lcom/a/a/j;)V
+		ARG 1 element
+	METHOD b size ()I

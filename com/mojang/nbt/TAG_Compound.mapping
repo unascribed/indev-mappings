@@ -1,0 +1,55 @@
+CLASS com/a/a/c com/mojang/nbt/TAG_Compound
+	FIELD a delegate Ljava/util/Map;
+	METHOD a containsKey (Ljava/lang/String;)Z
+		ARG 1 key
+	METHOD a putByte (Ljava/lang/String;B)V
+		ARG 1 key
+		ARG 2 value
+	METHOD a putFloat (Ljava/lang/String;F)V
+		ARG 1 key
+		ARG 2 value
+	METHOD a putInt (Ljava/lang/String;I)V
+		ARG 1 key
+		ARG 2 value
+	METHOD a putLong (Ljava/lang/String;J)V
+		ARG 1 key
+		ARG 2 value
+	METHOD a putObject (Ljava/lang/String;Lcom/a/a/c;)V
+		ARG 1 key
+		ARG 2 value
+	METHOD a put (Ljava/lang/String;Lcom/a/a/j;)V
+		ARG 1 key
+		ARG 2 value
+	METHOD a putString (Ljava/lang/String;Ljava/lang/String;)V
+		ARG 1 key
+		ARG 2 value
+	METHOD a putShort (Ljava/lang/String;S)V
+		ARG 1 key
+		ARG 2 value
+	METHOD a putBoolean (Ljava/lang/String;Z)V
+		ARG 1 key
+		ARG 2 value
+	METHOD a putByteArray (Ljava/lang/String;[B)V
+		ARG 1 key
+		ARG 2 value
+	METHOD b isEmpty ()Z
+	METHOD b getByte (Ljava/lang/String;)B
+		ARG 1 key
+	METHOD c getShort (Ljava/lang/String;)S
+		ARG 1 key
+	METHOD d getInt (Ljava/lang/String;)I
+		ARG 1 key
+	METHOD e getLong (Ljava/lang/String;)J
+		ARG 1 key
+	METHOD f getFloat (Ljava/lang/String;)F
+		ARG 1 key
+	METHOD g getString (Ljava/lang/String;)Ljava/lang/String;
+		ARG 1 key
+	METHOD h getByteArray (Ljava/lang/String;)[B
+		ARG 1 key
+	METHOD i getObject (Ljava/lang/String;)Lcom/a/a/c;
+		ARG 1 key
+	METHOD j getList (Ljava/lang/String;)Lcom/a/a/f;
+		ARG 1 key
+	METHOD k getBoolean (Ljava/lang/String;)Z
+		ARG 1 key

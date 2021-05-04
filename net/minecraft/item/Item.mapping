@@ -1,0 +1,4 @@
+CLASS net/minecraft/a/b/i net/minecraft/item/Item
+	FIELD al FLINT Lnet/minecraft/a/b/i;
+	FIELD ap id I
+	FIELD b allItems [Lnet/minecraft/a/b/i;

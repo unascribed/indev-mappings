@@ -1,0 +1,18 @@
+CLASS net/minecraft/a/a/g net/minecraft/world/World
+	FIELD A skyBrightness I
+	FIELD D timeOfDay I
+	FIELD f name Ljava/lang/String;
+	FIELD g author Ljava/lang/String;
+	FIELD h createdOn J
+	FIELD i spawnX I
+	FIELD j spawnY I
+	FIELD k spawnZ I
+	FIELD m surroundingWaterType I
+	FIELD s surroundingWaterHeight I
+	FIELD t surroundingGroundHeight I
+	FIELD u cloudHeight I
+	FIELD v skyColor I
+	FIELD w fogColor I
+	FIELD x cloudColor I
+	METHOD a loadBlocks (III[B[B)V
+	METHOD a spawnEntity (Lnet/minecraft/a/c/b;)V

@@ -1,0 +1,2 @@
+CLASS net/minecraft/a/a/b/a/c net/minecraft/tile/entity/ChestTileEntity
+	FIELD e contents [Lnet/minecraft/a/b/k;

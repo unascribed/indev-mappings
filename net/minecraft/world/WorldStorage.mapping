@@ -1,0 +1,12 @@
+CLASS net/minecraft/a/a/a net/minecraft/world/WorldStorage
+	FIELD a loader La/b;
+	METHOD <init> (La/b;)V
+		ARG 1 loader
+	METHOD a read (Ljava/io/InputStream;)Lnet/minecraft/a/a/g;
+		ARG 1 in
+	METHOD a write (Lnet/minecraft/a/a/g;Ljava/io/OutputStream;)V
+		ARG 1 world
+		ARG 2 out
+	METHOD a createEntityById (Lnet/minecraft/a/a/g;Ljava/lang/String;)Lnet/minecraft/a/c/b;
+		ARG 1 world
+		ARG 2 id

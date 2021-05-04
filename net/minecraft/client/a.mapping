@@ -1,0 +1,3 @@
+CLASS net/minecraft/client/a net/minecraft/client/a
+	METHOD a readCompressedTag (Ljava/io/InputStream;)Lcom/a/a/c;
+		ARG 0 in
