@@ -1,0 +1,9 @@
+CLASS net/minecraft/client/c net/minecraft/client/DiffuseLighting
+	FIELD a buf Ljava/nio/FloatBuffer;
+	METHOD a disable ()V
+	METHOD a fillBuffer (FFFF)Ljava/nio/FloatBuffer;
+		ARG 0 x
+		ARG 1 y
+		ARG 2 z
+		ARG 3 w
+	METHOD b enable ()V

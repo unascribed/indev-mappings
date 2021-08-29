@@ -1,0 +1,28 @@
+CLASS net/minecraft/a/d/a net/minecraft/math/Vec3
+	FIELD a x F
+	FIELD b y F
+	FIELD c z F
+	METHOD <init> (FFF)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a normalize ()Lnet/minecraft/a/d/a;
+	METHOD a add (FFF)Lnet/minecraft/a/d/a;
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a subtract (Lnet/minecraft/a/d/a;)Lnet/minecraft/a/d/a;
+		ARG 1 that
+	METHOD a lerpXBias (Lnet/minecraft/a/d/a;F)Lnet/minecraft/a/d/a;
+		ARG 1 that
+		ARG 2 alpha
+	METHOD b distanceTo (Lnet/minecraft/a/d/a;)F
+		ARG 1 that
+	METHOD b lerpYBias (Lnet/minecraft/a/d/a;F)Lnet/minecraft/a/d/a;
+		ARG 1 that
+		ARG 2 alpha
+	METHOD c distanceSqTo (Lnet/minecraft/a/d/a;)F
+		ARG 1 that
+	METHOD c lerpZBias (Lnet/minecraft/a/d/a;F)Lnet/minecraft/a/d/a;
+		ARG 1 that
+		ARG 2 alpha

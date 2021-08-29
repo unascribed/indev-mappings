@@ -1,1 +1,11 @@
 CLASS net/minecraft/a/c/c/b net/minecraft/entity/ItemEntity
+	FIELD O pickupDelay I
+	FIELD R health I
+	FIELD a stack Lnet/minecraft/a/b/k;
+	FIELD b age I
+	METHOD <init> (Lnet/minecraft/a/a/g;FFFLnet/minecraft/a/b/k;)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 stack

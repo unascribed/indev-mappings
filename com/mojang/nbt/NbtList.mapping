@@ -1,4 +1,4 @@
-CLASS com/a/a/f com/mojang/nbt/TAG_List
+CLASS com/a/a/f com/mojang/nbt/NbtList
 	FIELD a delegate Ljava/util/List;
 	FIELD b type B
 	METHOD a get (I)Lcom/a/a/j;

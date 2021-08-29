@@ -1,0 +1,5 @@
+CLASS net/minecraft/client/f net/minecraft/client/SingleplayerWorldStorage
+	FIELD a client Lnet/minecraft/client/d;
+	METHOD <init> (Lnet/minecraft/client/d;La/b;)V
+		ARG 1 client
+		ARG 2 loader

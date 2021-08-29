@@ -1,1 +1,3 @@
 CLASS net/minecraft/a/a/b/d net/minecraft/tile/MetalTile
+	METHOD <init> (II)V
+		ARG 1 tileId

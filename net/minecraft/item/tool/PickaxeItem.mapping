@@ -1,0 +1,6 @@
+CLASS net/minecraft/a/b/a net/minecraft/item/tool/PickaxeItem
+	FIELD as effectiveTiles [Lnet/minecraft/a/a/b/x;
+	FIELD at tier I
+	METHOD <init> (II)V
+		ARG 1 itemId
+		ARG 2 tier

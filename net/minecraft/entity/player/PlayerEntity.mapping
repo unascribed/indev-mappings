@@ -1,0 +1,6 @@
+CLASS net/minecraft/a/c/e/a net/minecraft/entity/player/PlayerEntity
+	FIELD b inventory Lnet/minecraft/a/c/e/b;
+	METHOD a openGui (Lnet/minecraft/a/a/b/a/b;)V
+		ARG 1 furnace
+	METHOD a canHarvest (Lnet/minecraft/a/a/b/x;)Z
+		ARG 1 tile

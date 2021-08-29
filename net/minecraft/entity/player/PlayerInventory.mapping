@@ -1,1 +1,14 @@
 CLASS net/minecraft/a/c/e/b net/minecraft/entity/player/PlayerInventory
+	FIELD a main [Lnet/minecraft/a/b/k;
+	FIELD b armor [Lnet/minecraft/a/b/k;
+	FIELD c selected I
+	FIELD d player Lnet/minecraft/a/c/e/a;
+	METHOD <init> (Lnet/minecraft/a/c/e/a;)V
+		ARG 1 player
+	METHOD a add (Lnet/minecraft/a/b/k;)Z
+	METHOD b selectItemById (I)V
+		ARG 1 itemID
+	METHOD c consume (I)Z
+	METHOD d getSelectedItem ()Lnet/minecraft/a/b/k;
+	METHOD d findItemById (I)I
+		ARG 1 itemId

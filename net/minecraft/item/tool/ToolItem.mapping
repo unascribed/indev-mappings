@@ -1,0 +1,8 @@
+CLASS net/minecraft/a/b/g net/minecraft/item/tool/ToolItem
+	FIELD as effectiveTiles [Lnet/minecraft/a/a/b/x;
+	FIELD at harvestSpeed F
+	METHOD <init> (III[Lnet/minecraft/a/a/b/x;)V
+		ARG 1 itemId
+		ARG 2 toolType
+		ARG 3 tier
+		ARG 4 effectiveTiles

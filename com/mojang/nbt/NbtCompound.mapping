@@ -1,4 +1,4 @@
-CLASS com/a/a/c com/mojang/nbt/TAG_Compound
+CLASS com/a/a/c com/mojang/nbt/NbtCompound
 	FIELD a delegate Ljava/util/Map;
 	METHOD a containsKey (Ljava/lang/String;)Z
 		ARG 1 key

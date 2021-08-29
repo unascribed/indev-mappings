@@ -1,0 +1,6 @@
+CLASS net/minecraft/client/a/b
+	FIELD m client Lnet/minecraft/client/d;
+	FIELD p canUseOcclusionQuery Z
+	FIELD w buf Ljava/nio/IntBuffer;
+	METHOD <init> (Lnet/minecraft/client/d;Lnet/minecraft/client/a/k;)V
+		ARG 1 client

@@ -1,1 +1,2 @@
 CLASS net/minecraft/a/c/a net/minecraft/entity/PaintingEntity
+	METHOD c canExist ()Z

@@ -1,0 +1,5 @@
+CLASS net/minecraft/client/a net/minecraft/client/LoadingScreenRendererImpl
+	FIELD a subtitle Ljava/lang/String;
+	FIELD c title Ljava/lang/String;
+	METHOD a readCompressedTag (Ljava/io/InputStream;)Lcom/a/a/c;
+		ARG 0 in

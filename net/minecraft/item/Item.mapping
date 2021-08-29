@@ -1,4 +1,99 @@
 CLASS net/minecraft/a/b/i net/minecraft/item/Item
+	FIELD A BOWL Lnet/minecraft/a/b/i;
+	FIELD B MUSHROOM_STEW Lnet/minecraft/a/b/i;
+	FIELD C GOLD_SWORD Lnet/minecraft/a/b/i;
+	FIELD D GOLD_SPADE Lnet/minecraft/a/b/i;
+	FIELD E GOLD_PICKAXE Lnet/minecraft/a/b/i;
+	FIELD F GOLD_AXE Lnet/minecraft/a/b/i;
+	FIELD G STRING Lnet/minecraft/a/b/i;
+	FIELD H FEATHER Lnet/minecraft/a/b/i;
+	FIELD I SULPHUR Lnet/minecraft/a/b/i;
+	FIELD J WOOD_HOE Lnet/minecraft/a/b/i;
+	FIELD K STONE_HOE Lnet/minecraft/a/b/i;
+	FIELD L IRON_HOE Lnet/minecraft/a/b/i;
+	FIELD M DIAMOND_HOE Lnet/minecraft/a/b/i;
+	FIELD N GOLD_HOE Lnet/minecraft/a/b/i;
+	FIELD O SEEDS Lnet/minecraft/a/b/i;
+	FIELD P WHEAT Lnet/minecraft/a/b/i;
+	FIELD Q BREAD Lnet/minecraft/a/b/i;
+	FIELD R CLOTH_HELMET Lnet/minecraft/a/b/i;
+	FIELD S CLOTH_CHESTPLATE Lnet/minecraft/a/b/i;
+	FIELD T CLOTH_LEGGINGS Lnet/minecraft/a/b/i;
+	FIELD U CLOTH_BOOTS Lnet/minecraft/a/b/i;
+	FIELD V CHAINMAIL_HELMET Lnet/minecraft/a/b/i;
+	FIELD W CHAINMAIL_CHESTPLATE Lnet/minecraft/a/b/i;
+	FIELD X CHAINMAIL_LEGGINGS Lnet/minecraft/a/b/i;
+	FIELD Y CHAINMAIL_BOOTS Lnet/minecraft/a/b/i;
+	FIELD Z IRON_HELMET Lnet/minecraft/a/b/i;
+	FIELD a random Ljava/util/Random;
+	FIELD aa IRON_CHESTPLATE Lnet/minecraft/a/b/i;
+	FIELD ab IRON_LEGGINGS Lnet/minecraft/a/b/i;
+	FIELD ac IRON_BOOTS Lnet/minecraft/a/b/i;
+	FIELD ad DIAMOND_HELMET Lnet/minecraft/a/b/i;
+	FIELD ae DIAMOND_CHESTPLATE Lnet/minecraft/a/b/i;
+	FIELD af DIAMOND_LEGGINGS Lnet/minecraft/a/b/i;
+	FIELD ag DIAMOND_BOOTS Lnet/minecraft/a/b/i;
+	FIELD ah GOLD_HELMET Lnet/minecraft/a/b/i;
+	FIELD ai GOLD_CHESTPLATE Lnet/minecraft/a/b/i;
+	FIELD aj GOLD_LEGGINGS Lnet/minecraft/a/b/i;
+	FIELD ak GOLD_BOOTS Lnet/minecraft/a/b/i;
 	FIELD al FLINT Lnet/minecraft/a/b/i;
+	FIELD am RAW_MEAT Lnet/minecraft/a/b/i;
+	FIELD an COOKED_MEAT Lnet/minecraft/a/b/i;
+	FIELD ao PAINTING Lnet/minecraft/a/b/i;
 	FIELD ap id I
+	FIELD aq maxCount I
+	FIELD ar maxDamage I
+	FIELD as textureIndex I
 	FIELD b allItems [Lnet/minecraft/a/b/i;
+	FIELD c IRON_SPADE Lnet/minecraft/a/b/i;
+	FIELD d IRON_PICKAXE Lnet/minecraft/a/b/i;
+	FIELD e IRON_AXE Lnet/minecraft/a/b/i;
+	FIELD f FLINT_AND_STEEL Lnet/minecraft/a/b/i;
+	FIELD g BOW Lnet/minecraft/a/b/i;
+	FIELD h ARROW Lnet/minecraft/a/b/i;
+	FIELD i COAL Lnet/minecraft/a/b/i;
+	FIELD j DIAMOND Lnet/minecraft/a/b/i;
+	FIELD k IRON_INGOT Lnet/minecraft/a/b/i;
+	FIELD l GOLD_INGOT Lnet/minecraft/a/b/i;
+	FIELD m IRON_SWORD Lnet/minecraft/a/b/i;
+	FIELD n WOOD_SWORD Lnet/minecraft/a/b/i;
+	FIELD o WOOD_SPADE Lnet/minecraft/a/b/i;
+	FIELD p WOOD_PICKAXE Lnet/minecraft/a/b/i;
+	FIELD q WOOD_AXE Lnet/minecraft/a/b/i;
+	FIELD r STONE_SWORD Lnet/minecraft/a/b/i;
+	FIELD s STONE_SPADE Lnet/minecraft/a/b/i;
+	FIELD t STONE_PICKAXE Lnet/minecraft/a/b/i;
+	FIELD u STONE_AXE Lnet/minecraft/a/b/i;
+	FIELD v DIAMOND_SWORD Lnet/minecraft/a/b/i;
+	FIELD w DIAMOND_SPADE Lnet/minecraft/a/b/i;
+	FIELD x DIAMOND_PICKAXE Lnet/minecraft/a/b/i;
+	FIELD y DIAMOND_AXE Lnet/minecraft/a/b/i;
+	FIELD z STICK Lnet/minecraft/a/b/i;
+	METHOD <init> (I)V
+		ARG 1 itemId
+	METHOD a getToolTypeOrSomething ()I
+	METHOD a setTextureIndex (I)Lnet/minecraft/a/b/i;
+		ARG 1 idx
+	METHOD a canHarvest (Lnet/minecraft/a/a/b/x;)Z
+		ARG 1 tile
+	METHOD a afterAttack (Lnet/minecraft/a/b/k;)V
+		ARG 1 stack
+	METHOD a useOnTile (Lnet/minecraft/a/b/k;Lnet/minecraft/a/a/g;IIII)Z
+		ARG 1 stack
+		ARG 2 world
+		ARG 3 x
+		ARG 4 y
+		ARG 5 z
+		ARG 6 face
+	METHOD a use (Lnet/minecraft/a/b/k;Lnet/minecraft/a/a/g;Lnet/minecraft/a/c/e/a;)Lnet/minecraft/a/b/k;
+		ARG 1 stack
+		ARG 2 world
+		ARG 3 player
+	METHOD b getTextureIndex ()I
+	METHOD b getBreakSpeed (Lnet/minecraft/a/a/b/x;)F
+		ARG 1 tile
+	METHOD b afterBreak (Lnet/minecraft/a/b/k;)V
+		ARG 1 stack
+	METHOD c getMaxCount ()I
+	METHOD d getMaxDamage ()I

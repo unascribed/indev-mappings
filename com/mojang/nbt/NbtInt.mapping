@@ -1,4 +1,4 @@
-CLASS com/a/a/d com/mojang/nbt/TAG_Int
+CLASS com/a/a/d com/mojang/nbt/NbtInt
 	FIELD a value I
 	METHOD <init> (I)V
 		ARG 1 value

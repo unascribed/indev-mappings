@@ -1,0 +1,13 @@
+CLASS net/minecraft/client/d net/minecraft/client/MinecraftClient
+	FIELD A run Z
+	FIELD i host Ljava/lang/String;
+	FIELD j canvas Ljava/awt/Canvas;
+	FIELD l stop Z
+	FIELD p loadingScreen Lnet/minecraft/client/a;
+	FIELD r loadmapUser Ljava/lang/String;
+	FIELD s loadmapId I
+	METHOD <init> (Ljava/awt/Canvas;Lnet/minecraft/client/MinecraftApplet;IIZ)V
+		ARG 1 canvas
+		ARG 2 applet
+	METHOD a joinServer (Ljava/lang/String;I)V
+	METHOD run ()V

@@ -1,0 +1,6 @@
+CLASS net/minecraft/client/g/a net/minecraft/client/entity/player/LocalPlayerEntity
+	FIELD an client Lnet/minecraft/client/d;
+	METHOD <init> (Lnet/minecraft/client/d;Lnet/minecraft/a/a/g;Lnet/minecraft/client/l;)V
+		ARG 1 client
+		ARG 2 world
+		ARG 3 session

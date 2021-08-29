@@ -1,6 +1,12 @@
 CLASS net/minecraft/a/a/g net/minecraft/world/World
 	FIELD A skyBrightness I
+	FIELD B skyLight I
 	FIELD D timeOfDay I
+	FIELD a width I
+	FIELD b length I
+	FIELD c height I
+	FIELD d blocks [B
+	FIELD e data [B
 	FIELD f name Ljava/lang/String;
 	FIELD g author Ljava/lang/String;
 	FIELD h createdOn J
@@ -8,11 +14,37 @@ CLASS net/minecraft/a/a/g net/minecraft/world/World
 	FIELD j spawnY I
 	FIELD k spawnZ I
 	FIELD m surroundingWaterType I
+	FIELD o tileEntities Ljava/util/Map;
+	FIELD q random Ljava/util/Random;
 	FIELD s surroundingWaterHeight I
 	FIELD t surroundingGroundHeight I
 	FIELD u cloudHeight I
 	FIELD v skyColor I
 	FIELD w fogColor I
 	FIELD x cloudColor I
+	METHOD a getTile (III)I
+	METHOD a setTileEntity (IIILnet/minecraft/a/a/b/a/a;)V
 	METHOD a loadBlocks (III[B[B)V
+	METHOD a spawnParticle (Ljava/lang/String;FFFFFF)V
 	METHOD a spawnEntity (Lnet/minecraft/a/c/b;)V
+	METHOD a playSound (Lnet/minecraft/a/c/b;Ljava/lang/String;FF)V
+	METHOD a getCollidingBlocks (Lnet/minecraft/a/d/b;)Ljava/util/ArrayList;
+		ARG 1 box
+	METHOD a containsMaterial (Lnet/minecraft/a/d/b;Lnet/minecraft/a/a/d/c;)Z
+		ARG 1 box
+		ARG 2 material
+	METHOD b (III)Z
+		ARG 1 res
+	METHOD b setTile (IIII)Z
+	METHOD c getCelestialAngle (F)F
+		ARG 1 tickDelta
+	METHOD c containsFireOrLava (Lnet/minecraft/a/d/b;)Z
+		ARG 1 box
+	METHOD e getSkyLight ()I
+	METHOD e (F)Lnet/minecraft/a/d/a;
+		ARG 1 tickDelta
+	METHOD e getMeta (III)B
+	METHOD f getMaterial (III)Lnet/minecraft/a/a/d/c;
+	METHOD f setMeta (IIII)V
+	METHOD i removeTileEntity (III)V
+	METHOD j getTileEntity (III)Lnet/minecraft/a/a/b/a/a;

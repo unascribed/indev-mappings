@@ -1,0 +1,2 @@
+CLASS net/minecraft/a/a/i
+	FIELD e entities Ljava/util/List;

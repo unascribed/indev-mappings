@@ -1,0 +1,10 @@
+CLASS net/minecraft/client/MinecraftApplet net/minecraft/client/MinecraftApplet
+	FIELD a canvas Ljava/awt/Canvas;
+	FIELD b client Lnet/minecraft/client/d;
+	FIELD c mainThread Ljava/lang/Thread;
+	METHOD a startThread ()V
+	METHOD b exit ()V
+	METHOD destroy ()V
+	METHOD init ()V
+	METHOD start ()V
+	METHOD stop ()V

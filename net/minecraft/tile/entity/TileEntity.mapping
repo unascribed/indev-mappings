@@ -1,5 +1,10 @@
 CLASS net/minecraft/a/a/b/a/a net/minecraft/tile/entity/TileEntity
+	FIELD a world Lnet/minecraft/a/a/g;
+	FIELD b posX I
+	FIELD c posY I
+	FIELD d posZ I
 	METHOD a read (Lcom/a/a/c;)V
 		ARG 1 tag
 	METHOD b write (Lcom/a/a/c;)V
 		ARG 1 tag
+	METHOD d tick ()V

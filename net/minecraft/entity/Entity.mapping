@@ -1,2 +1,80 @@
 CLASS net/minecraft/a/c/b net/minecraft/entity/Entity
-	METHOD d read (Lcom/a/a/c;)V
+	FIELD A steps Z
+	FIELD F noClip Z
+	FIELD G random Ljava/util/Random;
+	FIELD H ticksExisted I
+	FIELD J fireTime I
+	FIELD M airTime I
+	FIELD O nextStep I
+	FIELD R wasInWater Z
+	FIELD S justCreated Z
+	FIELD b fallDistance F
+	FIELD d world Lnet/minecraft/a/a/g;
+	FIELD e lastPosX F
+	FIELD f lastPosY F
+	FIELD g lastPosZ F
+	FIELD h posX F
+	FIELD i posY F
+	FIELD j posZ F
+	FIELD k velX F
+	FIELD l velY F
+	FIELD m velZ F
+	FIELD n yaw F
+	FIELD o pitch F
+	FIELD p lastYaw F
+	FIELD q lastPitch F
+	FIELD r boundingBox Lnet/minecraft/a/d/b;
+	FIELD u dead Z
+	FIELD w xzSize F
+	FIELD x ySize F
+	FIELD z distanceWalked F
+	METHOD <init> (Lnet/minecraft/a/a/g;)V
+		ARG 1 world
+	METHOD a getSaveId ()Ljava/lang/String;
+	METHOD a setSize (FF)V
+		ARG 1 xz
+		ARG 2 y
+	METHOD a addVelocity (FFF)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a setOnFire (I)V
+		ARG 1 time
+	METHOD a dropItem (II)Lnet/minecraft/a/c/c/b;
+		ARG 1 itemId
+		ARG 2 unused
+	METHOD a dropItem (IIF)Lnet/minecraft/a/c/c/b;
+		ARG 1 itemId
+		ARG 2 count
+		ARG 3 offset
+	METHOD a save (Lcom/a/a/c;)V
+		ARG 1 tag
+	METHOD a damage (Lnet/minecraft/a/c/b;I)Z
+		ARG 1 attacker
+		ARG 2 amt
+	METHOD a (Lnet/minecraft/a/c/e/a;)V
+		ARG 1 player
+	METHOD a buildFloatList ([F)Lcom/a/a/f;
+		ARG 0 arr
+	METHOD b setLocation (FFF)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD b setLocation (FFFFF)V
+	METHOD b load (Lcom/a/a/c;)V
+		ARG 1 tag
+	METHOD b_ tick ()V
+	METHOD c saveBase (Lcom/a/a/c;)V
+		ARG 1 tag
+	METHOD c applyKnockback (Lnet/minecraft/a/c/b;)V
+		ARG 1 that
+	METHOD d move (FFF)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD d loadBase (Lcom/a/a/c;)V
+		ARG 1 tag
+	METHOD j onSpawn ()V
+	METHOD k remove ()V
+	METHOD l isInWater ()Z
+	METHOD o isInLava ()Z

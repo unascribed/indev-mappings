@@ -1,0 +1,3 @@
+CLASS net/minecraft/a/c/e net/minecraft/entity/LivingEntity
+	FIELD V texture Ljava/lang/String;
+	METHOD b heal (I)V

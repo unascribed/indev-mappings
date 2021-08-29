@@ -86,12 +86,67 @@ CLASS net/minecraft/a/a/b/x net/minecraft/tile/Tile
 		ARG 2 material
 	METHOD a setBlastResistance (F)Lnet/minecraft/a/a/b/x;
 		ARG 1 f
+	METHOD a setBounds (FFFFFF)V
+	METHOD a getCollisionBox (III)Lnet/minecraft/a/d/b;
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
 	METHOD a getDroppedItemId (ILjava/util/Random;)I
 		ARG 1 meta
 		ARG 2 random
+	METHOD a getDroppedCount (Ljava/util/Random;)I
+	METHOD a drop (Lnet/minecraft/a/a/g;IIIIF)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 meta
+		ARG 6 chance
+	METHOD a randomTick (Lnet/minecraft/a/a/g;IIILjava/util/Random;)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 rand
+	METHOD a raycast (Lnet/minecraft/a/a/g;IIILnet/minecraft/a/d/a;Lnet/minecraft/a/d/a;)Lnet/minecraft/a/d/c;
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 from
+		ARG 6 to
+	METHOD a getBreakSpeed (Lnet/minecraft/a/c/e/a;)F
+		ARG 1 player
+	METHOD a setNeedsRandomTicks (Z)V
 	METHOD b setHardness (F)Lnet/minecraft/a/a/b/x;
 		ARG 1 f
+	METHOD b destroyed (Lnet/minecraft/a/a/g;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD b (Lnet/minecraft/a/a/g;IIII)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
 	METHOD c setLightLevel (F)Lnet/minecraft/a/a/b/x;
 		ARG 1 f
 	METHOD c setLightOpacity (I)Lnet/minecraft/a/a/b/x;
 		ARG 1 i
+	METHOD d placed (Lnet/minecraft/a/a/g;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD f drop (Lnet/minecraft/a/a/g;IIII)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 meta
+	METHOD g steppedOn (Lnet/minecraft/a/a/g;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

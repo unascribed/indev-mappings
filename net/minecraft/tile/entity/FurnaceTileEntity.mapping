@@ -1,1 +1,15 @@
 CLASS net/minecraft/a/a/b/a/b net/minecraft/tile/entity/FurnaceTileEntity
+	FIELD e contents [Lnet/minecraft/a/b/k;
+	FIELD f burnTime I
+	FIELD g maxBurnTime I
+	FIELD h cookTime I
+	METHOD a getBurnTime (Lnet/minecraft/a/b/k;)I
+		ARG 0 stack
+	METHOD b getCookProgress (I)I
+		ARG 1 unused
+	METHOD c getBurnProgress (I)I
+		ARG 1 unused
+	METHOD d canCookItem (I)I
+		ARG 0 itemId
+	METHOD e isBurning ()Z
+	METHOD f canCook ()Z

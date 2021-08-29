@@ -1,7 +1,10 @@
 CLASS net/minecraft/a/a/d/c net/minecraft/tile/Material
+	FIELD b FARMLAND Lnet/minecraft/a/a/d/c;
 	FIELD c WOOD Lnet/minecraft/a/a/d/c;
 	FIELD d STONE Lnet/minecraft/a/a/d/c;
+	FIELD e METAL Lnet/minecraft/a/a/d/c;
 	FIELD f WATER Lnet/minecraft/a/a/d/c;
 	FIELD g LAVA Lnet/minecraft/a/a/d/c;
 	FIELD k CLOTH Lnet/minecraft/a/a/d/c;
 	FIELD o GLASS Lnet/minecraft/a/a/d/c;
+	METHOD d isSilent ()Z

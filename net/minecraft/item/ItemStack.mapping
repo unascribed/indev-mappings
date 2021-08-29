@@ -1,5 +1,27 @@
 CLASS net/minecraft/a/b/k net/minecraft/item/ItemStack
 	FIELD a count I
+	FIELD c itemId I
+	FIELD d damage I
+	METHOD <init> (I)V
+		ARG 1 itemId
+	METHOD <init> (II)V
+		ARG 1 itemId
+		ARG 2 count
+	METHOD <init> (Lcom/a/a/c;)V
+		ARG 1 tag
+	METHOD <init> (Lnet/minecraft/a/a/b/x;)V
+		ARG 1 tile
+	METHOD <init> (Lnet/minecraft/a/a/b/x;I)V
+		ARG 1 tile
+		ARG 2 count
+	METHOD <init> (Lnet/minecraft/a/b/i;)V
+		ARG 1 item
+	METHOD <init> (Lnet/minecraft/a/b/i;I)V
+		ARG 1 item
+		ARG 2 count
+	METHOD a getItem ()Lnet/minecraft/a/b/i;
 	METHOD a split (I)Lnet/minecraft/a/b/k;
 		ARG 1 amount
 	METHOD a write (Lcom/a/a/c;)Lcom/a/a/c;
+		ARG 1 tag
+	METHOD b damage (I)V

@@ -1,0 +1,2 @@
+CLASS com/a/a/g com/mojang/nbt/NbtDouble
+	FIELD a value D

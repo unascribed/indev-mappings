@@ -1,4 +1,4 @@
-CLASS com/a/a/j com/mojang/nbt/TAG
+CLASS com/a/a/j com/mojang/nbt/NbtElement
 	FIELD a name Ljava/lang/String;
 	METHOD a getTypeId ()B
 	METHOD a createById (B)Lcom/a/a/j;

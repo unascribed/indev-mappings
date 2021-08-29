@@ -1,4 +1,4 @@
-CLASS com/a/a/b com/mojang/nbt/TAG_Float
+CLASS com/a/a/b com/mojang/nbt/NbtFloat
 	FIELD a value F
 	METHOD <init> (F)V
 		ARG 1 value

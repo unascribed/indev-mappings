@@ -1,0 +1,16 @@
+CLASS net/minecraft/a/d/c net/minecraft/math/RaycastResult
+	FIELD a type I
+	FIELD b x I
+	FIELD c y I
+	FIELD d z I
+	FIELD e face I
+	FIELD f hit Lnet/minecraft/a/d/a;
+	FIELD g entity Lnet/minecraft/a/c/b;
+	METHOD <init> (IIIILnet/minecraft/a/d/a;)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 face
+		ARG 5 hit
+	METHOD <init> (Lnet/minecraft/a/c/b;)V
+		ARG 1 entity

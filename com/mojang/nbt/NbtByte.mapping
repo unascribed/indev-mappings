@@ -1,4 +1,4 @@
-CLASS com/a/a/e com/mojang/nbt/TAG_Byte
+CLASS com/a/a/e com/mojang/nbt/NbtByte
 	FIELD a value B
 	METHOD <init> (B)V
 		ARG 1 value
